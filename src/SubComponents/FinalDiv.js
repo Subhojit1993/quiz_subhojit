@@ -208,7 +208,7 @@ class FinalDiv extends Component {
 						<div className="margin_bottom_40">
 							{getOptions}
 						</div>
-						<div className="left_align mobile_flex">
+						<div className="left_align mobile_flex margin_bottom_20">
 							<div className="display_inline left_align">
 								{isButton}
 							</div>

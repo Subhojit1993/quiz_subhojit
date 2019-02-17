@@ -189,6 +189,10 @@
     margin-bottom: 15px;
 }
 
+.margin_bottom_20 {
+    margin-bottom: 20px;
+}
+
 .margin_bottom_30 {
     margin-bottom: 30px;
 }
@@ -373,7 +377,7 @@
     outline: none;
     font-weight: 400;
     border: none;
-    //font-size: 13px;
+    /*font-size: 13px;*/
     padding: 7px 20px;
 }
 
@@ -519,7 +523,7 @@
 }
 
 .margin_111 {
-    //margin: 30px;
+    /*margin: 30px;*/
     margin: 15px 5px;
 }
 
@@ -691,8 +695,7 @@
 .box_card {
     background: #FFFFFF;
     margin: 20px 0;
-    //margin-left: 14px;
-
+    /*margin-left: 14px;*/
 }
 
 .box_card1 {
@@ -780,5 +783,52 @@
         display: flex;
         align-items: center;
     }
+
+    .sky_button {
+        background: #1e90ff;
+        color: #FFFFFF;
+        border-radius: 3px;
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .container_11 {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin: 45px 0;
+        margin-bottom: 20px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
 }
+
+@media only screen and (max-width: 320px) {
+    .container_11 {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin: 60px 0;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .dialog-content-class {
+        text-align: center !important;
+        width: 90% !important;
+    }
+}
+
+
 
