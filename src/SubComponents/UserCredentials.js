@@ -92,7 +92,7 @@ class UserCredentials extends Component {
 							Simple Quiz
 						</h3>
 						<h3 className="font_family font_16 color_teal margin_bottom_30 font_weight_900">
-							Grab 10 questions in 3 minutes
+							Answer 10 questions in 3 minutes
 						</h3>
 						<h5 className="font_family font_16 font_weight_900 left_align color_teal">
 							User Credentials
