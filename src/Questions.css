@@ -1,0 +1,112 @@
+/* The container */
+.container_11 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container_11 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 0%;
+  border: 1px solid;
+}
+
+/* On mouse-over, adding a background color */
+.container_11:hover input ~ .checkmark_11 {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, adding a background */
+.container_11 input:checked ~ .checkmark_11 {
+  background-color: #F0F0F0;
+  border: 1px solid #000;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.1)
+}
+
+/* Creating the indicator (the dot/circle - hidden when not checked) */
+.checkmark_11:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Showing the indicator (dot/circle) when checked */
+.container_11 input:checked ~ .checkmark_11:after {
+  display: block;
+}
+
+/* Styling the indicator (dot/circle) */
+.container_11 .checkmark_11:after {
+ 	top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FFFF00;
+    border: 1px solid #000;
+}
+
+.dialog-action-buttons {
+  background: #ffffff !important;
+  color: #232323 !important;
+  font-weight: 600 !important;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.13);
+  margin-bottom: 20px !important;
+  margin-left: 15px !important;
+}
+
+.dialog-action-buttons:hover {
+  background: #ffffff !important;
+  color: #d5003a !important;
+  font-weight: 600 !important;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.13);
+  margin-bottom: 20px !important;
+  margin-left: 15px !important;
+}
+
+.dialog-action-buttons:focus {
+  background: #ffffff !important;
+  color: #d5003a !important;
+  font-weight: 600 !important;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.13);
+  margin-bottom: 20px !important;
+  margin-left: 15px !important;
+}
+
+.dialog-body-class {
+  background: #ffffff !important;
+  color: linear-gradient(0deg, #cb2d3e 0%, #cb2d3e 100%) !important;
+  font-weight: bold;
+}
+
+.dialog-actions-container {
+  text-align: center !important;
+  background: #ffffff !important;
+  color: linear-gradient(0deg, #cb2d3e 0%, #cb2d3e 100%) !important;
+}
+
+.dialog-content-class {
+  text-align: center !important;
+  width: 45% !important;
+}
+
