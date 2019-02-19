@@ -177,7 +177,7 @@ class QuestionSet extends Component {
 							{setWarning}
 						</div>
 						<div className="row">
-							<div className="col-sm-2 left_align">
+							<div className="left_align">
 								<button
 									type="submit"
 									className="light_violet font_family"
@@ -187,7 +187,7 @@ class QuestionSet extends Component {
 									Submit Answer
 								</button>
 							</div>
-							<div className="col-sm-2 left_align">
+							<div className="col-sm-6 left_align">
 								{isButton}
 							</div>
 						</div>

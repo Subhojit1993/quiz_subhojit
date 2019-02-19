@@ -284,6 +284,14 @@
     margin-left: 10px;
 }
 
+.margin_left_15 {
+    margin-left: 15px;
+}
+
+.margin_left_20 {
+    margin-left: 20px;
+}
+
 .margin_top_5 {
     margin-top: 5px;
 }
@@ -498,6 +506,11 @@
     align-items: center;
 }
 
+.display_flex_112 {
+    display: flex;
+    justify-content: center;
+}
+
 .get_margin_103 {
     margin: 20px 0;
 }
@@ -686,6 +699,20 @@
 .no_extras {
     margin: 0px !important;
     padding: 0px !important;
+}
+
+.padding_0 {
+    padding: 0px !important;
+}
+
+.align_items_11 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.width_150 {
+    width: 150px;
 }
 
 .box_head {
